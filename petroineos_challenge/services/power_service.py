@@ -1,6 +1,7 @@
-from datetime import date
-from pydantic import BaseModel
 import random
+from datetime import date
+
+from pydantic import BaseModel
 
 
 class TradePosition(BaseModel):

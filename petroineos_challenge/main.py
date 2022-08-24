@@ -1,7 +1,10 @@
-from pathlib import PurePath
-import click
 from datetime import datetime
+from pathlib import PurePath
+
+import click
+
 from petroineos_challenge.services.intraday_report import IntraDayReportService
+
 # from petroineos_challenge.services.spark_report_service import SparkReportService
 
 BASE_PATH = PurePath(__file__).parent

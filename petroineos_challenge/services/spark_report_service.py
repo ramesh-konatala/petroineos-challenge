@@ -1,7 +1,8 @@
 from datetime import date, datetime
-from pyspark.sql import SparkSession
+
+from pyspark.sql import Row, SparkSession
 from pyspark.sql import functions as F
-from pyspark.sql import Row
+
 from petroineos_challenge.services.power_service import PowerService
 from petroineos_challenge.utils.parser import create_period_map
 

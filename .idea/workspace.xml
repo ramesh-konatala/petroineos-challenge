@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9301d82-3748-4f5a-a8f8-c776aa54b688" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/petroineos_challenge/services/spark_report_service.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/test_trade_aggregates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/petroineos_challenge/reports/PowerPosition_20220824_0309.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/petroineos_challenge/reports/PowerPosition_20220824_0342.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

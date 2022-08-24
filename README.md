@@ -4,6 +4,20 @@ This is a Python application to generate intra-day report to give power traders 
 The repo contains code base to create the report using basic python modules along with Pyspark modules.
 The main.py module have relevant placeholders to enable spark modules for running the code in Spark environment.
 
+
+## Installation
+```commandline
+pipenv install --dev
+```
+
+## Linting/Testing
+```commandline
+pipenv run black .
+pipenv run flake8 .
+pipenv run isort .
+pipenv run python -m pytest -vv tests
+```
+
 ## Execution
 
 ### Command Line
