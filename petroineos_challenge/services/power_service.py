@@ -3,6 +3,10 @@ from datetime import date
 
 from pydantic import BaseModel
 
+from petroineos_challenge.utils.logger import get_logger
+
+logger = get_logger(__name__)
+
 
 class TradePosition(BaseModel):
     trader_id: int
@@ -21,6 +25,7 @@ class PowerService:
             for j in range(1, 25):
                 trade_position = TradePosition(trader_id=i, trade_date=self.trade_date, period=j, volume=random.randint(-20, 100))
                 trades.append(trade_position)
+        logger.info("PowerService Mock Trade Positions data created successfully")
         return trades
 
     def get_trades(self):
