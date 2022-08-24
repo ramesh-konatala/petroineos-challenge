@@ -1,0 +1,16 @@
+### python ###
+__pycache__
+/**/*pytest_cache*
+*.egg-info/
+.coverage
+
+### IDE ###
+.idea
+.vscode
+
+### Virualenvs ###
+env/
+venv/
+
+## OS generated files
+.DS_Store

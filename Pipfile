@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pydantic = "*"
+pandas = "*"
+click = "*"
+
+[dev-packages]
+pytest = "*"
+black = "==19.10b0"
+flake8 = "*"
+isort = {extras = ["pyproject"], version = "*"}
+
+[requires]
+python_version = "3.7"
